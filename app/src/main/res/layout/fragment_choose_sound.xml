@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitCenter"
+    android:background="@color/colorWhite">
+
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/GridLayout1"
+    android:columnCount="2"
+    android:rowCount="5"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_b"
+            android:src="@drawable/circ_ic_b"
+            android:background="@color/colorWhite"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_ck"
+            android:src="@drawable/circ_ic_ck"
+            android:background="@color/colorWhite" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_ch"
+            android:src="@drawable/circ_ic_ch"
+            android:background="@color/colorWhite" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_d"
+            android:src="@drawable/circ_ic_d"
+            android:background="@color/colorWhite" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_f"
+            android:src="@drawable/circ_ic_f"
+            android:background="@color/colorWhite"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_g"
+            android:src="@drawable/circ_ic_g"
+            android:background="@color/colorWhite"/>
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_h"
+            android:src="@drawable/circ_ic_h"
+            android:background="@color/colorWhite"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_j"
+            android:src="@drawable/circ_ic_j"
+            android:background="@color/colorWhite"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_l"
+            android:src="@drawable/circ_ic_l"
+            android:background="@color/colorWhite"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/circ_m"
+            android:src="@drawable/circ_ic_m"
+            android:background="@color/colorWhite"/>
+    </GridLayout>
+
+</LinearLayout>
