@@ -4,7 +4,7 @@
     api-level="22"
     density="mdpi"
     format="7"
-    timestamp="128891699619855"
+    timestamp="154683652233323"
     token="7407848285238499638" >
 
     <task
@@ -24,12 +24,17 @@
         location="/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_"
         type="RESOURCES" />
 
-    <build timestamp="128509441614319" >
+    <build timestamp="153885631556408" >
         <artifact
             location="/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="128891699619855" >
+    <build timestamp="154563469250273" >
+        <artifact
+            location="/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="154683652233323" >
         <artifact
             location="/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/res/resources-debug.ap_"
             type="RESOURCES" />

@@ -128,6 +128,10 @@
         "source": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
+        "merged": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/activity_gumball_machine.xml",
+        "source": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/res/layout/activity_gumball_machine.xml"
+    },
+    {
         "merged": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
         "source": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/layout/notification_template_part_chronometer.xml"
     },

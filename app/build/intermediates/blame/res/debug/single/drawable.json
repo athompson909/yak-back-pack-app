@@ -92,6 +92,10 @@
         "source": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
+        "merged": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable/gumballmachine.png",
+        "source": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/gumballmachine.png"
+    },
+    {
         "merged": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/res/drawable/abc_seekbar_tick_mark_material.xml"
     },

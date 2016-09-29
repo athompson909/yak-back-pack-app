@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-19:12
+ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:2:1-21:12
 	package
 		ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:3:5-35
 		INJECTED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/
 		INJECTED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-17:19
+ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:5:5-19:19
 MERGED from [com.android.support:appcompat-v7:24.2.0] /Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-vector-drawable:24.2.0] /Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.0/AndroidManifest.xml:23:5-20
 MERGED from [com.android.support:support-compat:24.2.0] /Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.0/AndroidManifest.xml:25:5-20
@@ -61,6 +61,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:17-76
 	android:name
 		ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:14:27-74
+activity#com.at.myapplication.main.base.GumballMachineActivity
+ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:9-18:20
+	android:name
+		ADDED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml:17:19-67
 uses-sdk
 INJECTED from /Users/adamthompson/AndroidStudioProjects/MyApplication/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:24.2.0] /Users/adamthompson/AndroidStudioProjects/MyApplication/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.0/AndroidManifest.xml:21:5-23:78

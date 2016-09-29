@@ -30,7 +30,7 @@ public class ChooseLevelFragment extends Fragment {
         buttonBVS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onBVSClicked();
+                onBVSClick();
             }
 
         });
@@ -39,7 +39,7 @@ public class ChooseLevelFragment extends Fragment {
         buttonAVS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                onAVSClicked();
+                onAVSClick();
             }
 
         });
@@ -47,12 +47,12 @@ public class ChooseLevelFragment extends Fragment {
         return v;
     }
 
-    public void onBVSClicked() {
+    public void onBVSClick() {
         MainActivity ma = (MainActivity) getActivity();
         ma.startChooseSoundFragment();
     }
 
-    public void onAVSClicked() {
+    public void onAVSClick() {
         MainActivity ma = (MainActivity) getActivity();
         ma.startChooseSoundFragment();
     }
