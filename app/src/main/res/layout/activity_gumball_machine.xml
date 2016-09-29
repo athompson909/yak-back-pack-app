@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:layout_margin="0dp"
+    tools:context=".main.base.MainActivity">
 
-    <ImageButton
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:paddingLeft="160dp"
-        android:paddingRight="160dp"
-        android:src="@drawable/gumballmachine"
-        android:id="@+id/gumballmachine"
-        android:scaleType="fitCenter"
-        style="?android:attr/borderlessButtonStyle"
-        android:background="@color/colorWhite"/>
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="false"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/frameLayout">
+    </FrameLayout>
 
-</LinearLayout>
+</RelativeLayout>
