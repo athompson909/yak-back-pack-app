@@ -1,6 +1,7 @@
 package com.at.myapplication.main.base;
 
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -26,23 +27,23 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().hide();
 
-        if(!GameData.getInstance().isStarted()) {
-
-            mStartFragment = new StartFragment();
-
-            getSupportFragmentManager().beginTransaction().add(R.id.frameLayout, mStartFragment).commit();
-        }
+        mStartFragment = new StartFragment();
+        getSupportFragmentManager().beginTransaction().add(R.id.frameLayout, mStartFragment).commit();
     }
 
 
     public void startChooseLevelFragment() {
         mChooseLevelFragment = new ChooseLevelFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, mChooseLevelFragment).commit();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+        ft.replace(R.id.frameLayout, mChooseLevelFragment).commit();
     }
 
 
     public void startChooseSoundFragment() {
         mChooseSoundFragment = new ChooseSoundFragment();
-        getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout, mChooseSoundFragment).commit();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+        ft.replace(R.id.frameLayout, mChooseSoundFragment).commit();
     }
 }
