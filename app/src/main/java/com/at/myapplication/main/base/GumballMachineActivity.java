@@ -2,6 +2,7 @@ package com.at.myapplication.main.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 
@@ -14,6 +15,10 @@ import com.at.myapplication.main.model.Sound;
 public class GumballMachineActivity extends AppCompatActivity {
 
     private Sound currentSound;
+
+    private GumballMachineFragment mGumballMachineFragment;
+
+    private VideoFragment mVideoFragment;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -38,5 +43,19 @@ public class GumballMachineActivity extends AppCompatActivity {
             default:
                 Log.e("switch error", "invalid id passed into bundle in GumballMachineActivity");
         }
+
+        mGumballMachineFragment = new GumballMachineFragment();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+        ft.replace(R.id.frameLayout, mGumballMachineFragment).commit();
+
+    }
+
+    public void startVideoFragment() {
+
+        mVideoFragment = new VideoFragment();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.setCustomAnimations(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+        ft.replace(R.id.frameLayout, mVideoFragment).commit();
     }
 }
